@@ -1,8 +1,9 @@
 import "CoreLibs/graphics"
 
-local gfx <const> = playdate.graphics
+local pd <const> = playdate
+local gfx <const> = pd.graphics
 
-function playdate.update()
+function pd.update()
 	gfx.clear()
 	gfx.drawText("Hello World", 20, 20)
 end
