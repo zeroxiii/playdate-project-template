@@ -1,0 +1,11 @@
+{
+  "clips" : [
+    {
+      "content" : "local pd <const> = playdate\nlocal gfx <const> = pd.graphics\n",
+      "name" : "Playdate Globals Setup",
+      "scope" : "editor",
+      "syntax" : "lua",
+      "trigger" : "local pd"
+    }
+  ]
+}
